@@ -40,5 +40,3 @@ while True:
     if get_idle_time() > wait_sec or user_input == 'start':
         user_input = ''
         run_miner()
-    else:
-        time.sleep(30)
